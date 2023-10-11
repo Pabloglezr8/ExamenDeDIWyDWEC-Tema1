@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!--Mediante el link unimos el html con la hoja de estilos .css-->
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="fav-icon" href="/assets/arcoiris.png" type="imagen/x.ico">
+</head>
+<body>
+ <!--Hacemos un h1 para el título de la página -->
+    <h1>Calculadora del área, perímetro y 
+        diagonal de un Rectángulo</h1>
+        
+<!--En divs metemos el label que muetra el nombre del dato y los inputs para que se peuda meter el dato tipo número-->
+<!--Con  placeholder mostramos dentro del imput el dato que estamos pidiendo-->
+    <div>
+        <label for="base">Longitud: </label>
+        <input type="number" name="base" id="base" placeholder="Inserte la longitud">
+    </div>
+    <div>
+        <label for="lado">Ancho: </label>
+        <input type="number" name="lado" id="lado" placeholder="Inserte el ancho">
+    </div>
+
+<!--Boton que ejecutará el programa para calcular las diferentes operaciones-->
+    <button id="calcular">Calcular</button>
+
+<!-- En cada uno de los spans mostraremos los resultados de las operaciones-->
+    <div>
+        <span id="area"></span>
+    </div>
+    <div>
+        <span id="perimetro"></span>
+    </div>
+    <div>
+        <span id="diagonal"></span>
+    </div>
+
+<!--Script linka el archivo .js -->
+    <script src="/scripts/indesx.js"></script>
+</body>
+</html>
