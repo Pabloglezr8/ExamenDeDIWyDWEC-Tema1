@@ -1,3 +1,4 @@
+/*Centramos el texto y cambiamos el estilo de la letra */
 body{
     text-align: center;
     font-family: 'Courier New', Courier;
@@ -15,6 +16,7 @@ input{
     padding: 5px;
 }
 
+/* Le metemos estilo al boton con fondo azul y sin borde */
 button{
     padding: 10px;
     background-color: #007BFF;
